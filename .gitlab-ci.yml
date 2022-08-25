@@ -1,0 +1,30 @@
+image: node:14-alpine
+
+stages:
+  - build
+  - analyze
+  - test
+
+build:
+  stage: build
+  script:
+    - npm install
+    - npm run build
+
+eslint:
+  stage: analyze
+  script:
+    - npm install
+    - npm run lint
+
+circular-dependencies:
+  stage: analyze
+  script:
+    - npm install
+    - npm run circular-dependencies
+
+test:
+  stage: test
+  script:
+    - npm install
+    - npm run test

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>incode</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/semantic.min.css">
+  <style>
+    #demo-button{
+      background-color: red;
+      display: block;
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+
+<body>
+<main>
+  <nav id="menubar" class="ui top secondary fixed menu">
+    <a href="#">
+      <h1 id="frontpage-title" class="ui">in<span>code</span></h1>
+    </a>
+    <div class="right menu">
+      <a class="item" href="#build-city-section" style="">Build City</a>
+      <a class="item" href="#hint-section">How it works</a>
+      <a class="item" href="#about-section">About</a>
+    </div>
+  </nav>
+
+  <section id="build-city-section">
+    <article id="repository-card" class="form ui card centered column">
+      <form id="repository-card-form">
+        <button id="demo-button" class="ui secondary button fluid" title="Demo Javaproject: ''BlackWidow Chess from developer amir650'', (useful without connection)">Demo Project</button><br>
+        <h2 class="title header">Enter your GitHub Repository</h2>
+        <input id="input-username" type="text" placeholder="username" required>
+        <input id="input-repository" type="text" placeholder="repository" required>
+        <aside id="build-city-form-error-message" class="ui negative message" hidden>
+          <p id="build-city-form-error-message-content"></p>
+        </aside>
+        <button id="button-build-city-card" class="ui primary button fluid" disabled>
+          Check Repository
+        </button>
+      </form>
+      <h2 id="repository-card-browser-error" class="ui red header" hidden></h2>
+    </article>
+    <form id="progressing-card" class="form ui card column centered">
+      <h2 id="progressing-card-header" class="header title">We're calculating your city ...</h2>
+      <div id="progressing-card-progress-container" class="ui active progress">
+        <div id="progressing-card-progressbar" class="bar"></div>
+        <div id="analysis-state" class="label"></div>
+      </div>
+      <div id="analysis-state-data-retrieved">0 files and 0 lines of code read</div>
+      <aside id="progressing-card-error-message" class="ui negative message" hidden>
+        <p id="progressing-card-error-message-content"></p>
+      </aside>
+      <button id="enter-vr-button" class="ui button fluid primary loading" disabled>Enter VR</button>
+      <button id="abort-button" class="ui button fluid secondary">Abort</button>
+    </form>
+  </section>
+
+  <section id="hint-section">
+    <article>
+      <h1 class="ui header">How it works</h1>
+      <p>
+        Incode is an open source project for software visualization using virtual reality. To analyze your code, simply
+        enter your GitHub username and repository in the card above.
+      </p>
+      <h2 class="ui header">Requirements</h2>
+      <p>
+        In order to successfully use incode, your browser needs to support Web Workers and WebXR for the VR experience.
+        Additionally, the provided GitHub repository has to be publicly accessible and must contain at least one Java file.
+        <br><br><strong>Note:</strong> Depending on your hardware and the size of the software project you want to analyze, performance may
+        be severely affected. This can lead to nausea, especially for newcomers to virtual reality.
+      </p>
+    </article>
+  </section>
+
+  <section id="about-section">
+    <article>
+      <h1 class="ui header">About</h1>
+      <p class="description">The initial version of incode was made by Joel Hirzel and Thomas Hindermann,<br>
+        students of the OST, as part of their study project in 2021.<br><br>
+        Incode is build with <a href="https://www.babylonjs.com/">Babylon.js</a>.</p>
+      <img id="ost-logo" class="image"
+           src="https://www.ost.ch/typo3conf/ext/template/Resources/Public/Images/logo-de.svg" alt="OST Logo">
+    </article>
+  </section>
+</main>
+<aside id="vrpage" hidden> <!-- remove property hidden, to view the vrpage in full size with the WebXR emulator -->
+  <canvas id="renderCanvas"></canvas>
+</aside>
+</body>
+</html>

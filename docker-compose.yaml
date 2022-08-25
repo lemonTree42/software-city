@@ -1,0 +1,8 @@
+version: "3.5"
+
+services:
+  incode:
+    image: registry.gitlab.ost.ch:45023/sa_webvr/incode/image:latest
+    container_name: fileserver
+    ports:
+      - "8080:80"

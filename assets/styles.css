@@ -1,0 +1,162 @@
+:root {
+  --primary-color: #275082;
+  --secondary-color: #cec8b0;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  text-align: center;
+}
+
+section:nth-of-type(2n) {
+  background-color: #fafcff;
+}
+
+p {
+  color: rgb(85, 85, 85);
+}
+
+#vrpage,
+#renderCanvas {
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+
+#menubar {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  background: white;
+}
+
+#menubar div a {
+  border-radius: 0.28571429rem!important;
+}
+
+#frontpage-title {
+  display: flex;
+  align-items: center;
+  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  margin-left: 10px;
+  color: var(--primary-color);
+}
+
+#frontpage-title span {
+  color: black;
+}
+
+section {
+  z-index: 0;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+#build-city-section {
+  display: flex;
+}
+
+section:nth-child(n) {
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#repository-card,
+#progressing-card {
+  padding: 30px;
+  width: 300px;
+  box-shadow: 0px 2px 5px #1b1c1d38;
+  color: #818187;
+  background-color: #f4f4f4;
+  margin-top: 1em;
+}
+
+#build-city-form-error-message {
+  margin-bottom: 0;
+}
+
+#repository-card input {
+  color: #5a5a5a;
+  margin-top: 0.5em;
+}
+
+#repository-card-browser-error {
+  margin-top: 0;
+}
+
+#progressing-card {
+  display: none;
+}
+
+#progressing-card div.progress div.label {
+  color: #5a5a5a;
+}
+
+#progressing-card .ui.progress .bar {
+  margin: 1.5em 0 3em 0;
+  transition: width .5s ease, background-color .5s ease;
+}
+
+#further-form-info {
+  color: red;
+  font-weight: bold;
+}
+
+#button-build-city-card,
+#enter-vr-button {
+  color: #f4f4f4;
+  /*background-color: var(--primary-color);*/
+  margin-top: 1.7em;
+}
+
+#hint-section article, #about-section article {
+  display: flex;
+  flex-direction: column;
+  width: clamp(10px, 80%, 700px);
+  height: calc(100% - 160px);
+  justify-content: center;
+  align-items: center;
+  margin: 80px auto 80px auto;
+}
+
+#about-section .ui.header, #hint-section .ui.header {
+  color: rgb(60 60 60);
+}
+
+.ui.card>:last-child {
+  border-radius: 0.28571429rem !important;
+}
+
+#abort-button {
+  margin-top: 0.5em;
+}
+
+#ost-logo {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  height: auto;
+  margin-top: 40px;
+}
+
+#info-icon {
+  color: var(--secondary-color);
+}
+
+#info-icon:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+#progressing-card-error-message {
+  font-size: 0.9em;
+  text-align: left;
+  max-height: 80px;
+  overflow: scroll;
+  white-space: nowrap;
+}

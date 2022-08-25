@@ -1,0 +1,391 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 15,
+    "scenes" : [
+        {
+            "name" : "class0"
+        },
+        {
+            "name" : "class1"
+        },
+        {
+            "name" : "class2"
+        },
+        {
+            "name" : "class3"
+        },
+        {
+            "name" : "classMain0"
+        },
+        {
+            "name" : "classMain1"
+        },
+        {
+            "name" : "classMain2"
+        },
+        {
+            "name" : "classMain3"
+        },
+        {
+            "name" : "enum0"
+        },
+        {
+            "name" : "enum1"
+        },
+        {
+            "name" : "interface0"
+        },
+        {
+            "name" : "interface1"
+        },
+        {
+            "name" : "interfacef2"
+        },
+        {
+            "name" : "scene"
+        },
+        {
+            "name" : "tree1"
+        },
+        {
+            "name" : "tree2",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cone_001",
+            "rotation" : [
+                0,
+                0.7071068286895752,
+                0.7071068286895752,
+                4.329781294330012e-17
+            ],
+            "scale" : [
+                0.2814916968345642,
+                0.2814916670322418,
+                0.2814916670322418
+            ],
+            "translation" : [
+                0.001463107531890273,
+                1.4668378829956055,
+                -0.036403533071279526
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Cone_002",
+            "rotation" : [
+                0,
+                0.7071068286895752,
+                0.7071068286895752,
+                4.329781294330012e-17
+            ],
+            "scale" : [
+                0.39874982833862305,
+                0.39874982833862305,
+                0.39874982833862305
+            ],
+            "translation" : [
+                0.001463107531890273,
+                1.1568593978881836,
+                -0.036403533071279526
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "Cone_003",
+            "rotation" : [
+                0,
+                0.7071068286895752,
+                0.7071068286895752,
+                4.329781294330012e-17
+            ],
+            "scale" : [
+                0.5155857801437378,
+                0.5155857801437378,
+                0.5155857801437378
+            ],
+            "translation" : [
+                0.001463107531890273,
+                0.7850821614265442,
+                -0.036403533071279526
+            ]
+        },
+        {
+            "mesh" : 3,
+            "name" : "Cylinder.001",
+            "rotation" : [
+                0,
+                0.7071068286895752,
+                0.7071068286895752,
+                4.329780632585522e-17
+            ],
+            "scale" : [
+                0.10281118750572205,
+                0.10281116515398026,
+                0.39246973395347595
+            ],
+            "translation" : [
+                0.003755927551537752,
+                0.39177823066711426,
+                -0.02409038320183754
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Tree2",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.004753309767693281,
+                    0.38703858852386475,
+                    0,
+                    1
+                ]
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material_003",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.5668193697929382,
+                    0.19324608147144318,
+                    0,
+                    1
+                ]
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cone_001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1
+                            }
+                        }
+                    },
+                    "indices" : 2,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Cone_002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 1,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1
+                            }
+                        }
+                    },
+                    "indices" : 2,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Cone_003",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 5,
+                        "NORMAL" : 6
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 2,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1
+                            }
+                        }
+                    },
+                    "indices" : 2,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Cylinder.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 7,
+                        "NORMAL" : 8
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 3,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1
+                            }
+                        }
+                    },
+                    "indices" : 9,
+                    "material" : 1,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 128,
+            "max" : [
+                1,
+                1,
+                1
+            ],
+            "min" : [
+                -1,
+                -1,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 128,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 186,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 128,
+            "max" : [
+                1,
+                1,
+                1
+            ],
+            "min" : [
+                -1,
+                -1,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 128,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 128,
+            "max" : [
+                1,
+                1,
+                1
+            ],
+            "min" : [
+                -1,
+                -1,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 128,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 192,
+            "max" : [
+                1,
+                1,
+                1
+            ],
+            "min" : [
+                -1,
+                -1,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 192,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 372,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 856,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 856,
+            "byteOffset" : 856
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 856,
+            "byteOffset" : 1712
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 807,
+            "byteOffset" : 2568
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 3376,
+            "uri" : "data:application/octet-stream;base64,RFJBQ08CAgEBAAAAgAE+AT4OABh//uTPn+TPn+RPnv3//////////////wP/AkdC/wL7QQL/AAAAAAABAAkDAAACAQEJAwABAwEBAQEHgIABeQx9BX0F/////9esrCz///////////+jLQEpAf///////////wcBAS0B//////////8frKz///////9nLIusrP////9PLFT/DwEBAQH///+3AQHU/+cBAQEBAQEBAf//////////////////////////D1RU/////99UVP//D1RU////////////////////Jyz//wNUVP///5+srKyA/////////////////////99UVP////////////////////8nVFT//////////////xfU1AEBKQH/5yz///+7LFT///////////////////////////////////////////8PrKysrP////////////////////////////////ss////////v6ysrKz//////////////////////////////5eArKys//////////////////+HrKysrP/////XgFSs/AGoxqHhtc8jEEhxvCT0o4Ns+tiDf9Um5e3fnzFI9kI1HBN7PLu0uQ+zTzrgn2H6PdpR+3FgpbTKSzZQfjbPw7B/GaSbC0WVf+0kYQjvBZdqYCH5Uve+Trbp551x/4imDQLQVd19FUyAUe1Jm58XOBmDEggrJaxDkTcbLWAoUXDxHAp/0S6ZnoYLQq7STBB749E6AtpGmjaVva3qLX8MCgeGN/gk+9ncizuRVltfXRgs/emvdS8EUsAfiE95zuk8rULHWZqeu1w7NxTzK97KdOTHKYkG2i3UpCZ/F2l8nPw5Z3KEg9p8CkokjxzUl7fqtfObfMOgMIW4iAI1oG0AAAAA/z8AAAAAgL8AAIC/AACAvwAAAEAOAAMBAAsDgS8PAQQLgQwTQAk6KLjjOrKhN2cAa5aH6kR9gwAACAAAAAAAAABEei7gLj0oPzmQBJQAoLA/tHA/2BA/+AA4kDwgID0QcD0AoD3svz3crz3Efz2ADz44KCAlECQAJeyPAtzfAsRvAwA+JO8ASI8AXE8AaA8AbL8/TK48SI87AP8DAAD/AQAACkRSQUNPAgIBAQAAAIABPgE+DgAYf/7kz5/kz5/kT579//////////////8D/wJHQv8C+0EC/wAAAAAAAQAJAwAAAgEBCQMAAQMBAQEBB4CAAXkMfQV9Bf/////XrKws////////////oy0BKQH///////////8HAQEtAf//////////H6ys////////ZyyLrKz/////TyxU/w8BAQEB////twEB1P/nAQEBAQEBAQH//////////////////////////w9UVP/////fVFT//w9UVP///////////////////ycs//8DVFT///+frKysgP/////////////////////fVFT/////////////////////J1RU//////////////8X1NQBASkB/+cs////uyxU////////////////////////////////////////////D6ysrKz////////////////////////////////7LP///////7+srKys//////////////////////////////+XgKysrP//////////////////h6ysrKz/////14BUrPwBqMah4bXPIxBIcbwk9KODbPrYg3/VJuXt358xSPZCNRwTezy7tLkPs0864J9h+j3aUftxYKW0yks2UH42z8OwfxmkmwtFlX/tJGEI7wWXamAh+VL3vk626eedcf+Ipg0C0FXdfRVMgFHtSZufFzgZgxIIKyWsQ5E3Gy1gKFFw8RwKf9EumZ6GC0Ku0kwQe+PROgLaRpo2lb2t6i1/DAoHhjf4JPvZ3Is7kVZbX10YLP3pr3UvBFLAH4hPec7pPK1Cx1manrtcOzcU8yveynTkxymJBtot1KQmfxdpfJz8OWdyhIPafApKJI8c1Je36rXzm3zDoDCFuIgCNaBtAAAAAP8/AAAAAIC/AACAvwAAgL8AAABADgADAQALA4EvDwEEC4EME0AJOii44zqyoTdnAGuWh+pEfYMAAAgAAAAAAAAARHou4C49KD85kASUAKCwP7RwP9gQP/gAOJA8ICA9EHA9AKA97L893K89xH89gA8+OCggJRAkACXsjwLc3wLEbwMAPiTvAEiPAFxPAGgPAGy/P0yuPEiPOwD/AwAA/wEAAApEUkFDTwICAQEAAACAAT4BPg4AGH/+5M+f5M+f5E+e/f//////////////A/8CR0L/AvtBAv8AAAAAAAEACQMAAAIBAQkDAAEDAQEBAQeAgAF5DH0FfQX/////16ysLP///////////6MtASkB////////////BwEBLQH//////////x+srP///////2csi6ys/////08sVP8PAQEBAf///7cBAdT/5wEBAQEBAQEB//////////////////////////8PVFT/////31RU//8PVFT///////////////////8nLP//A1RU////n6ysrID/////////////////////31RU/////////////////////ydUVP//////////////F9TUAQEpAf/nLP///7ssVP///////////////////////////////////////////w+srKys////////////////////////////////+yz///////+/rKysrP//////////////////////////////l4CsrKz//////////////////4esrKys/////9eAVKz8AajGoeG1zyMQSHG8JPSjg2z62IN/1Sbl7d+fMUj2QjUcE3s8u7S5D7NPOuCfYfo92lH7cWCltMpLNlB+Ns/DsH8ZpJsLRZV/7SRhCO8Fl2pgIflS975OtunnnXH/iKYNAtBV3X0VTIBR7Umbnxc4GYMSCCslrEORNxstYChRcPEcCn/RLpmehgtCrtJMEHvj0ToC2kaaNpW9reotfwwKB4Y3+CT72dyLO5FWW19dGCz96a91LwRSwB+IT3nO6TytQsdZmp67XDs3FPMr3sp05McpiQbaLdSkJn8XaXyc/DlncoSD2nwKSiSPHNSXt+q185t8w6AwhbiIAjWgbQAAAAD/PwAAAACAvwAAgL8AAIC/AAAAQA4AAwEACwOBLw8BBAuBDBNACToouOM6sqE3ZwBrlofqRH2DAAAIAAAAAAAAAER6LuAuPSg/OZAElACgsD+0cD/YED/4ADiQPCAgPRBwPQCgPey/PdyvPcR/PYAPPjgoICUQJAAl7I8C3N8CxG8DAD4k7wBIjwBcTwBoDwBsvz9MrjxIjzsA/wMAAP8BAAAKRFJBQ08CAgEBAAAAwAF8AXwcAC9//uTPn+TPn+RPnn3fnz/58yf58yf5k2ff933f933f933f933f933f933f933fB/8CWkL/AvdGAv8AAAAAAAEACQMAAAIBAQkDAAEDAQEBAQaDZ5EZkQMBB//////XOQFVARz///////////+jVQGRAf/////fHP////8jAQE5Af//////////Hx0BHQH///////9nOIsdAR0B/////0+QrP8PAQEdAf///7cBAR0B/+dwkHCQ//////93HP//////////////////k1Rw/////984OP//Dzg4///////7HP///////////ycc//8DcHD///+nHP+7ODj///////////////////8fcHD/////////////////////J3BU//////////////8XOBxUkP/nHP/HODgc/+dUcP//////////////////////////////////////////////////////////Nxz/////////////////3xyfAqSLDsCFuD3OSxZOPXcZ8OtdMytRDpXdaw34WCi4uZIVkB1xD4WQV1EsEZrJA/BMKwfbe8z8r+b4uiupCRQjqjq0UFWVh7O28xy7GWjw6y3Ynxj4dmeQJ0BuIcIC4228K4rCZ1EmGhwpIerMIqrzfpv0PXDzEfxDETZRjoC6tb2WJ51k2BcMzt3ysO53G3/HcBlMBz8VhbOHmSsjEDWlVHdK0Ku2p6tFirSr7c5tjE3H2Q0IRBE6/m5EV5NgNZZgSJlOAu0hK55z0oU0ZWSIQfSzg7AJeNMD3mmfNEuhnG49a6OotxQy9kibCAScSlf5bucwAvNBDmVbtcZyP3MnUsFKYiIWTVt+tshWbD0EzzV9/B+uaSOPovzEj1Kt+k+OAAAAAP8/AAAAAIC/AACAvwAAgL8AAABADgADAQEF0gepOcdUrBeAM4BHVP///78s//8LLLMsgP/TLP/////71DOsF6xUD1QqJwSeqtZaAFnbaCX6voS6/J6o9pV72PAbPYqFLxc0GQu+NA1tICgIClG3/wMAAP8BAAAKAA=="
+        }
+    ]
+}
